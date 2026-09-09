@@ -4,7 +4,7 @@ A practice data engineering project using Apache Airflow (Dockerized) to extract
 
 ## Overview
 
-This pipeline reads a raw CSV file from an S3 bucket, cleans and transforms it using pandas and DuckDB (SQL), and writes the transformed result back to a different S3 location — all orchestrated as an Airflow DAG.
+This pipeline reads a raw CSV file from an S3 bucket, cleans and transforms it using pandas and DuckDB (SQL), and writes the transformed result back to a different S3 location, all orchestrated as an Airflow DAG.
 
 ## Pipeline Steps
 
