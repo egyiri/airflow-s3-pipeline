@@ -22,8 +22,6 @@ def extract(**context):
     print(f"Extracted data from S3 bucket '{source_bucket_name}' with key '{source_key}'.")
 
 
-
-
 def transform(**context):
     csv_content = context['ti'].xcom_pull(key='extracted_data', task_ids='extract')
 
