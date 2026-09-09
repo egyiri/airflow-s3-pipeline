@@ -1,5 +1,10 @@
 # Airflow S3 ETL Pipeline
 
+
+## Archiecture
+
+![Pipeline Diagram](images/etl_diagram.png)
+
 A practice data engineering project using Apache Airflow (Dockerized) to extract, transform, and load package delivery data through Amazon S3.
 
 ## Overview
