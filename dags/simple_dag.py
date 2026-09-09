@@ -101,7 +101,7 @@ def load(**context):
 
 with DAG(
     dag_id="simple_dag",
-    schedule= "0 9 * * * *",  
+    schedule= "0 2 * * * *",  
     start_date=dt.datetime(2026, 1, 1),
     catchup=False,
 ) as dag:
